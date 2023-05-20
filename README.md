@@ -34,7 +34,7 @@ A gif animáció a `images/gif_out.gif` fileba mentődik.
 
 ---
 
-Például a virágos képet a következő képpen futtathtjuk:
+### Például a virágos képet a következő képpen futtathtjuk:
 
 ```python
 w = WFC("images/flowers.png", imDims = (15,23))
@@ -44,5 +44,5 @@ w.plot()
 
 ![flowers](images/flowers_example.png "flowers")
 
-Az animáció:
+### Az animáció:
 ![flowers](images/flowers_example.gif "flowers")
