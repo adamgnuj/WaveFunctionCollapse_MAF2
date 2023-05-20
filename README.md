@@ -1,6 +1,6 @@
 # WaveFunctionCollapse_MAF2
  
-A WavaFunctionCollapse algoritmust implementáltuk, 
+A WaveFunctionCollapse algoritmust implementáltuk, 
 [ezen](https://discourse.processing.org/t/wave-collapse-function-algorithm-in-processing/12983)
 fórum mentén.
 
@@ -32,9 +32,7 @@ grafikonját.
 Másképpen az output képet a `w.output_image` attribútummal is lekérhetjük, amit pl a `plt.imshow()` parancsal lehet vizualizálni.
 A gif animáció a `images/gif_out.gif` fileba mentődik.
 
----
-
-### Például a virágos képet a következő képpen futtathtjuk:
+### a [virágos képet](images/flowers.png) a következő képpen futtathtjuk:
 
 ```python
 w = WFC("images/flowers.png", imDims = (15,23))
@@ -44,5 +42,5 @@ w.plot()
 
 ![flowers](images/flowers_example.png "flowers")
 
-### Az animáció:
+### animáció:
 ![flowers](images/flowers_example.gif "flowers")
