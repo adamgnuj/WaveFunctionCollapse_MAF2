@@ -26,7 +26,7 @@ Ha a `gif_len` paraméter is meg van adva a `run` függvényben, mint pl `w.run(
 akkor futás közben egy 100 képből 
 álló gif is készül az algoritmus közbülső lépései szemléltetésére.
 
-Alapvetően a `w.plot()` hívásával láthatjuk az input bitmap, a generált kép és az elletmondásos pixelek
+Alapvetően a `w.plot()` hívásával láthatjuk az input bitmap, a generált kép és az ellentmondásos pixelek
 grafikonját.
 
 Másképpen az output képet a `w.output_image` attribútummal is lekérhetjük, amit pl a `plt.imshow()` parancsal lehet vizualizálni.
