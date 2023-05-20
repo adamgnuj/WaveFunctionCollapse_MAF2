@@ -1,2 +1,0 @@
-# WaveFunctionCollapse_MAF2
- 
