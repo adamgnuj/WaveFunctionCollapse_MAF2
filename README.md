@@ -22,7 +22,8 @@ Az `out_dims` specifikálja, hogy mekkora képet generáljon az algoritmus.
 Az alapértelmezet kimeneti felbontás 80 x 100.
 
 
-Ha a `gif_len` paraméter is meg van adva a fu `w.run(gif_len = 100)` paraméter is meg van adva, akkor a futás közben egy 100 képből 
+Ha a `gif_len` paraméter is meg van adva a `run` függvényben, mint pl `w.run(gif_len = 100)`, 
+akkor futás közben egy 100 képből 
 álló gif is készül az algoritmus közbülső lépései szemléltetésére.
 
 Alapvetően a `w.plot()` hívásával láthatjuk az input bitmap, a generált kép és az elletmondásos pixelek
